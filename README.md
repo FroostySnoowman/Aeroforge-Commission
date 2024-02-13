@@ -9,6 +9,9 @@ Next, scroll down until you find "Privileged Gateway Intents" and select all 3 (
 
 Lastly, go to "OAuth2", click on "URL Generator" and choose "bot" and "application.commands". You can now specify what permission you want the bot to have, I strongly recommend Administrator permissions since this bot does NOT check for permissions. You can now copy the URL, put it in the browser, and invite the bot to the server(s) of your choosing.
 
+## Config
+Simply rename the "example_config.yml" file to "config.yml" and fill it out.
+
 ## Error Codes
     - 1: This error code means that the bot doesn't have the necessary permissions to add/remove someone from the channel.
 
