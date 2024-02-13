@@ -13,7 +13,7 @@ Lastly, go to "OAuth2", click on "URL Generator" and choose "bot" and "applicati
 Simply rename the "example_config.yml" file to "config.yml" and fill it out.
 
 ## Error Codes
-    - 1: This error code means that the bot doesn't have the necessary permissions to add/remove someone from the channel.
+1: This error code means that the bot doesn't have the necessary permissions to add/remove someone from the channel.
 
 ## Support
 Feel free to contact someone0171 on Discord for support. Support starts on February 15th, 2024 and ends April 15th, 2024.
