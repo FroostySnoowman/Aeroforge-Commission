@@ -96,7 +96,8 @@ else:
 intents = discord.Intents.all()
 
 initial_extensions = [
-                      'cogs.commands.lock'
+                      'cogs.commands.lock',
+                      'cogs.commands.unlock'
                       ]
 
 class AeroBot(commands.Bot):
