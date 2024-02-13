@@ -1,0 +1,12 @@
+General:
+    TOKEN: "" # bot token
+    ACTIVITY: "" # playing, watching, listening, streaming
+    DOING_ACTIVITY: "" # what the bot is playing, watching, or listening to
+    STREAMING_ACTIVITY_TWITCH_URL: "" # what the bot is streaming
+    STATUS: "" # online, idle, dnd, invisible
+
+    EMBED_COLOR: "#FFFFF" # embed hex color
+
+Roles:
+    LOCK_ROLE_ID: 123 # role id that can lock channels
+    UNLOCK_ROLE_ID: 123 # role id that can unlock channels
