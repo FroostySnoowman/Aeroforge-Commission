@@ -14,9 +14,9 @@ class UnlockCog(commands.Cog):
     def __init__(self, bot: commands.Bot) -> None:
         self.bot = bot
 
-    @app_commands.command(name="lock", description="Locks a channel!")
+    @app_commands.command(name="unlock", description="Unlocks a channel!")
     @app_commands.describe(locked_channel="What channel do you want to be unlocked?")
-    async def lock(self, interaction: discord.Interaction, locked_channel: discord.TextChannel) -> None:
+    async def unlock(self, interaction: discord.Interaction, locked_channel: discord.TextChannel) -> None:
         await interaction.response.defer(thinking=True, ephemeral=True)
 
         unlock_role = interaction.guild.get_role(unlock_role_id)
